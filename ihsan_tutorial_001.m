@@ -18,3 +18,5 @@ R = 8.314462e-5; % Gas constant   |
 % ------------------------------------ %
 
 n = P*V/(R*T);
+% disp(n);
+fprintf('The answer is %g \n',n);
